@@ -1,0 +1,335 @@
+.body{
+    font-family: "source Sans pro", "Hiragino Kaku Gothic ProN",  Arial, sans-serif;
+}
+
+.body{
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between
+
+}
+/* .header2{
+     position: relative;
+    width: auto;
+    height: 209px;
+    background-color: #0078AA;
+} */
+
+/* p{
+    font-size: 15px;
+} */
+
+.circle {
+    position: relative;/* ←文字の親要素に指定 */
+    width: 1620px;
+    height: 1620px; 
+    background-color: #ebe4a4;
+    border-radius: 50%; 
+    margin: 0 auto;
+    text-align: center;
+    border: solid 20px #8ec6ff;
+    
+
+}
+.circle-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size:61px;
+    width:1000px;
+    line-height:300%;
+    color: #3AB4F2;
+
+        }
+
+.parent {
+    height: 209px;
+    width: 1920px;
+    left: auto;
+     background-color:  #0078AA;
+}     
+
+/* 見出しのところ */
+.midasi{
+    font-size: 50px;
+    color: #3AB4F2;
+}
+
+
+.underber {
+    border-bottom : solid  red; 
+    /* width: 400px ; */
+}
+
+.logo2{
+    margin-top: 48px;
+    margin-left: 194px;
+}
+
+.footer {
+    position:absolute;
+    width: 1920px;
+    height: 209px;
+    top:3608px;
+    font-size: 26px;
+    background-color:#0078AA;
+}
+
+
+
+
+.ex3{
+    font-size:16px;
+    line-height:250%;
+    }
+
+    #nav-pc {
+        text-align: right;
+        font-size: 14px;
+        padding-top: 15px;
+      }
+      
+      /* ナビゲーションのリンクの装飾設定 */
+      #nav-pc  a {
+        font-family: Black Italic;
+        text-decoration: none;
+        font-size:30px ;
+        margin-left: center;
+        text-align: center;
+        justify-content: center;
+
+      }
+      #nav-pc > a:link {
+        color: #0d0d0d;
+      }
+      #nav-pc > a:visited {
+        color: #0d0d0d;
+      }
+      #nav-pc > a:hover {
+        color: #0d0d0d;
+        text-decoration: underline;
+      }
+      #nav-pc > a:active {
+        color: #0d0d0d;
+      }
+
+      /* workinfomationのところ */
+      .work{
+        color: red;
+        font-size: 75px;
+        margin-top: 102px;
+        margin-bottom: 0px;  
+     
+      }
+      .work > p {
+        margin-bottom: 0px;
+      }
+
+      .infomation{
+        color: #3AB4F2; 
+        font-size: 61px;   
+      }
+      .infomation > p{
+        margin-top: 0px;
+      }
+
+      #border{
+
+        border:#0078AA 7px solid;
+        width: 1836px;
+        margin-left:42px;
+        margin-right: 42px;
+        
+        /* margin-bottom: 439px; */
+      }
+
+      #keiban{
+        position:absolute;
+        width: 239px;
+        height: 425px;
+        top:2649px;
+        left: 1475px;
+        
+      }
+      
+      /* #footer2{
+    position: absolute;
+    width: 1920px;
+    height: 209px;
+    top: 3608px;
+    background-color:  #0078AA;
+      } */
+
+      /* .parent2 {
+        height: 209px;
+        width: 1920px;
+        top: 3608px;
+         background-color:  #0078AA;} */
+
+         .footer2 {
+            position:absolute;
+            width: 1920px;
+            height: 209px;
+            top:3608px;
+            left: auto;
+            /* font-size: 26px; */
+            background-color:#0078AA;
+        }
+        
+        /* ここから会社概要 */
+
+        .parent3{
+            position:absolute;
+            width:1856px;
+            height:1186px;
+            left:32px;
+            top:1146px;
+            border: solid 20px #8ec6ff;
+            background-color: #ebe4a4; 
+        }
+
+        .torisimariyaku{
+            position: absolute;
+            left: 171px;
+            top:95px;
+            width: 1595px;
+            height: 1043px;
+            color: #3AB4F2;
+            font-size: 110px;
+            margin-bottom: 0px;
+        }
+
+        #underber2{
+            margin-top: 60px;
+            width: 627px;
+            left:174.5px;
+            top:1343px;
+            border-bottom:solid 7px #FD5353;
+        }
+
+        .aisatu{
+            font-size: 55px;
+            color: #3AB4F2;
+            position: absolute;left: 203px;top: 400px;            
+        }
+
+        .naiyou1{
+            position: absolute;
+            top:2650px;
+            left:175px;
+            font-size: 40px;
+            color: #3AB4F2;
+        }
+
+        .naiyou2{
+            position: absolute;
+            top: 2650px;
+            left:639px;
+            font-size: 40px;
+            color: #3AB4F2;
+        }
+
+        .naiyou3{
+            position: absolute;
+            top:2650px;
+            left:1101px;
+            font-size: 40px;
+            color: #3AB4F2;
+            width: 734px;
+        }
+
+        .circle2 {
+            position: relative;/* ←文字の親要素に指定 */
+            width: 1611px;
+            height: 704px; 
+            background-color: #ebe4a4;
+            border-radius: 50%; 
+            margin: 0 auto;
+            text-align: center;
+            border: solid 20px #8ec6ff;
+        }
+
+        .circle-inner2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            font-size:150px;
+            width:1350px;
+            line-height:200%;
+            margin: auto;
+            color: #3AB4F2;
+        }
+
+        .recruit_content{
+            position: absolute;
+            top: 2017px;
+            left: 135px;
+            width: 1650px;
+            font-size: 100px;
+            color: #3AB4F2;
+            border: solid 10px #0078AA;
+        }
+
+        .recruit_content2{
+            position: absolute;
+            top: 2692px;
+            left: 804px;
+            width: 1170px;
+            font-size: 70px;
+            color: #3AB4F2;
+            border: solid #0078AA 1px ;
+        }
+
+        .keiban2{
+            position: absolute;
+            top:2578px;
+            left:135px;
+            width: 472px;
+        }
+
+        .women{
+            position: absolute;
+            top: 3489px;
+            left: 568px;
+            width: 784px;
+            height: 523px;
+            margin-top: 200px;
+        }
+
+        .last{
+            position: absolute;
+            top: 4150px;
+            left: 435px;
+            width: 1200px;
+            text-align: center;
+            font-size: 150px;
+            margin: 0px;
+            color: #3AB4F2;
+        }
+
+        .last2{
+            position: absolute;
+            top:4340px;
+            left: 70px;
+            width: 2000px;
+            font-size: 150px;
+            text-align: center;
+            color: #3AB4F2;
+        }
+
+        .footer3{
+            position: absolute;
+            top:4812px;
+            width: 1920px;
+            height: 209px;
+            background-color: #0078AA;
+        }
